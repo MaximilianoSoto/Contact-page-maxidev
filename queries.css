@@ -1,0 +1,222 @@
+
+@media (max-width:640px) {
+    .container h1{
+        color: #F8FAFC;
+        text-align: center;
+        line-height: 1.2;
+        padding-top: 20px;
+        font-size: 24px;
+        margin: auto;
+        
+    }
+    
+    .container h2 {
+        color: #F8FAFC;
+        text-align: center;
+        font-weight: 500;
+        font-size: 16px;
+        width: 80%;
+        padding: 10px 0px 50px 0px;
+        margin: auto;
+    }
+
+    .form-container{
+        width: 90%;
+        background-color: rgba(248, 250, 252, 0.2);
+        height: 110vh;
+        margin: auto;
+        border-radius: 20px;
+        padding: 20px;
+    }
+    .group-form{
+       display: flex;
+       flex-direction: column;
+        
+    }
+
+    form label{
+        margin-top: 10px;
+        display: block;
+        padding: 5px;
+        color: white;
+    }
+    form input{
+        display: block;
+        width: 100%;
+        border: 0;
+        padding: 25px 20px 25px 20px;
+        border-radius: 20px;
+        outline: 0;
+    }
+    form input::placeholder{
+        color: #CDD5E0;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    form input[id="message"]{
+        padding-bottom: 150px;
+       
+    }
+    form input[id="message"]::placeholder{
+        color: #111729;
+        font-weight: 700;
+    }
+
+    form input[type="submit"]{
+        margin-top: 20px;
+        font-size: 20px;
+        color: #4036A9;
+        font-weight: 600;
+    }
+
+    form select{
+        display: block;
+        color: #111729;
+        font-weight: 700;
+        width: 100%;
+        border: 0;
+
+        padding: 25px 20px 25px 20px;
+        border-radius: 20px;
+        -webkit-appearance:none;
+        -moz-appearance:none;
+        -ms-appearance:none;
+        appearance:none;
+        outline:0;
+        box-shadow:none;
+        border:0!important;
+        background-image: none;
+    }
+
+    
+    .select {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        border-radius: .25em;
+     }
+    
+     .select::after {
+        content: url("./assets/img/Expand_down.svg");
+        position: absolute;
+        bottom:0px;
+        right: 5px;
+        padding: 20px;
+        cursor:pointer;
+        pointer-events:none;
+        transition:.25s all ease;
+     }
+    
+}
+
+
+@media (max-width:1024px) {
+    .container h1{
+        color: #F8FAFC;
+        text-align: center;
+        line-height: 1.2;
+        padding-top: 20px;
+        width: 60%;
+        font-size: 58px;
+        margin: auto;
+        
+    }
+    
+    .container h2 {
+        color: #F8FAFC;
+        text-align: center;
+        font-weight: 500;
+        font-size: 24px;
+        width: 500px;
+        padding: 10px 0px 50px 0px;
+        margin: auto;
+    }
+   
+    .form-container{
+        width: 90%;
+        background-color: rgba(248, 250, 252, 0.2);
+        margin: auto;
+        border-radius: 20px;
+        padding: 20px 20px 40px 20px;
+       
+    }
+    .group-form{
+        display: flex;
+        gap: 10px;
+    }
+    .group-form div{
+        width: 100%;
+    }
+    form label{
+        margin-top: 10px;
+        display: block;
+        padding: 5px;
+        color: white;
+        font-size: 14px;
+    }
+    form input{
+        display: block;
+        width: 100%;
+        border: 0;
+        padding: 25px 20px 25px 20px;
+        border-radius: 20px;
+        outline: 0;
+    }
+    form input::placeholder{
+        color: #CDD5E0;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    form input[id="message"]{
+        padding-bottom: 150px;
+       
+    }
+    form input[id="message"]::placeholder{
+        color: #111729;
+        font-weight: 700;
+    }
+    form input[type="submit"]{
+        margin-top: 20px;
+        font-size: 20px;
+        color: #4036A9;
+        font-weight: 600;
+    }
+    form select{
+        display: block;
+        color: #111729;
+        font-weight: 700;
+        width: 100%;
+        border: 0;
+
+        padding: 25px 20px 25px 20px;
+        border-radius: 20px;
+        -webkit-appearance:none;
+        -moz-appearance:none;
+        -ms-appearance:none;
+        appearance:none;
+        outline:0;
+        box-shadow:none;
+        border:0!important;
+        background-image: none;
+    }
+
+    
+    .select {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        border-radius: .25em;
+     }
+    
+     .select::after {
+        content: url("./assets/img/Expand_down.svg");
+        position: absolute;
+        bottom:0px;
+        right: 5px;
+        padding: 20px;
+        cursor:pointer;
+        pointer-events:none;
+        transition:.25s all ease;
+     }
+}
